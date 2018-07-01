@@ -27,12 +27,4 @@ public class XWPrint {
         }
         print(printText)
     }
-    
-    public class func log(with info: String, params: Any...) {
-        var logString = info
-        for param in params {
-            logString.append("\(param) ")
-        }
-        print(logString)
-    }
 }
